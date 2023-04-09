@@ -1,0 +1,30 @@
+.navy {
+    background-color: #1F2937;
+}
+.gray {
+    background-color: #E5E7EB;
+}
+.blue {
+    background-color: #3882F6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    font-family: "Roboto" sans-serif;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+margin: 16px 0px;
+}
