@@ -5,49 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="one navy">
+        <div class="content">
         <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="links">
-                <a href="#">header link one</a>
-                <a href="#">header link one</a>
-                <a href="#">header link one</a>
+            <div><p  class="logo">Header Logo</p></div>
+            <div>
+                <a href="#" class="links">Home</a>
+                <a href="#" class="links">About</a>
+                <a href="#" class="links">Contact</a>
             </div>
         </div>
 
         <div class="top">
             <div class="top-left">
-                <h1>This Website is awesome</h1>
-                <p>This website has some subtext that goes here 
+                <h1 class="big">This website is awesome</h1>
+                <p class="description">This website has some subtext that goes here 
                     under the main title. It's a smaller 
                     font and the color is lower contrast
                 </p>
-                <button class="blue">Sign Up</button>
+                <button class="blue"><div class= "sign-up">Sign Up</div></button>
             </div>
-            <img src="./img/bacon.gif">
+            <img src="./img/car.jpeg" class="placeholder">
+        </div>
         </div>
     </div>
     <div class="two">
         <h2>Some random information</h2>
-
+        <div class="images">
         <div class="first">
-            <img src="./img/amazon.png">
+            <img src="./img/amazon.png" class="pic">
             <p>this is some subtext under an illustration or image</p>
         </div>
         <div class="second">
-            <img src="./img/apple.png">
+            <img src="./img/apple.png" class="pic">
             <p>this is some subtext under an illustration or image</p>
         </div>
         <div class="third">
-            <img src="./img/google.png">
+            <img src="./img/google.png" class="pic">
             <p>this is some subtext under an illustration or image</p>
         </div>
         <div class="fourth">
-            <img src="./img/instagram.jpeg">
+            <img src="./img/instagram.jpeg" class="pic">
             <p>this is some subtext under an illustration or image</p>
+        </div>
         </div>
     </div>
 
@@ -62,7 +68,7 @@
             <h3>Call to action! It's time!</h3>
             <p>Sign up for our product by clicking that button right over there!</p>
         </div>
-        <button class="blue border">Sign up</button>
+        <button class="blue border"><div class= "sign-up">Sign Up</div></button>
     </div>
     <div class="footer navy">
         <p>Copyright &copy; The Odin Project 2021</p>

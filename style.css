@@ -11,20 +11,116 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin: 0;
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .one {
+    height: 450px;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    align-items: center;
+
 
 }
 
+.content {
+    margin: 0px 200px;
+}
 .header {
 display: flex;
 justify-content: space-between;
-margin: 16px 0px;
+align-items: center;
+color: white;
+margin-top: 16px;
+}
+.logo {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+a:visited {
+    color: white;
+}
+.links {   
+    margin: 8px;
+}
+
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin: 72px 0px;
+}
+.placeholder {
+    width: 350px;
+    height: auto;
+    margin-left: 16px;
+}
+.big {
+    color: #F9FAF8;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 0px;
+}
+.top-left {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    
+}
+
+
+.description {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 200;
+    width: 400px;
+    margin: 12px 0px;
+}
+button {
+    width: 100px;
+    height: 32px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    color: #E5E7EB;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images {
+    display: flex;
+    color: #1F2937;
+}
+.pic {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+    max-width: 160px;
 }
